@@ -1,0 +1,56 @@
+body {
+    background: linear-gradient(135deg, #232526 0%, #414345 40%, #6a3093 70%, #a044ff 100%);
+    color: #f8f9fa;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+header {
+    background: #222;
+    padding: 1rem 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+nav a {
+    color: #ffc107;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.game-img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+}
+.highlight {
+    color: #ffc107;
+    font-weight: bold;
+}
+.table th, .table td {
+    background-color: rgba(33,37,41,0.9);
+    color: #fff;
+}
+footer {
+    background: #111;
+    color: #bbb;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+.news-img {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 8px;
+}
+.faq-question {
+    font-weight: bold;
+    color: #ffc107;
+}
+.kep-jobbra {
+    float: right;
+}
+.list-group-item.bg-dark {
+    background-color: #212529 ;
+    color: #f8f9fa ;
+    border: 1px solid #343a40 ;
+}
